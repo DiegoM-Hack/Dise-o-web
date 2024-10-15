@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.859);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 19px;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    background: #2C3E50;
+    height: 150px;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    background: #2C3E50;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero__buttons{
+    display: flex ;
+}
+
+button{
+    border:0;
+    background-image: linear-gradient(
+        150deg,
+        #9500,
+        #09F,
+        #00DDFF
+    );
+    border-radius: 8px;
+color:#fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+}
+
+button span{
+    
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover span {
+    background: none;
+}
+button:active {
+    transform: scale(0,9)
+}
+
+.container  {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    
+    text-align: center;
+}
+
+
+th {
+    background: #2C3E50;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+
+footer {
+    background: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
