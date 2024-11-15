@@ -99,7 +99,7 @@ button:active {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -112,13 +112,27 @@ div {
 }
 
 
-th {
-    background: #2C3E50;
-    color: white;
-}
+
 
 td {
     text-align: center;
+}
+
+.mobile {
+    background: #00DDFF;
+    border: 101px;
+    margin: 50px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.title2{
+    text-align: center;
+}
+
+div{
+    background-color: #09F;
 }
 
 
